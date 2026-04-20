@@ -1,21 +1,171 @@
-# 💫 About Me:
-🚀 **About Me**<br>🎓 **CS-AIML Student @ BVRIT Hyderabad** | 💡 **Tech Enthusiast & Researcher** | 🛠️ **Developer**  <br><br>Hey there! I'm an **AI & Software Developer** passionate about **building impactful tech solutions**. I enjoy working with **AI, full-stack development, and system programming**, constantly exploring **new technologies** to create meaningful projects.  <br><br>💡 **What I Do**:  <br>- 🛠️ **Software Development** – Creating **interactive apps & system utilities**  <br>- 🤖 **AI & Machine Learning** – Exploring **GenAI, automation, and analytics**  <br>- 🔍 **Research & Technical Writing** – Presented papers at **ICIRD-2024, DST-SERB**  <br>- 📊 **Data & Systems** – Working with **databases, backend, and optimization**  <br><br>🌟 **Key Projects**:  <br>🔹 **Movie Ticket Booking System** – C-based queue-driven reservation system  <br>🔹 **To-Do List App** – Python & SQLite-powered task management app  <br>🔹 **Snake Game** – Classic Java-based interactive game with smooth controls  <br>🔹 **AI Study Planner** – Smart scheduling tool using **Google Gemini AI & Streamlit**  <br><br>
+# Asha Jyothi Boddu
 
+**AI/ML & Full-Stack Engineer · B.Tech CS-AIML @ BVRIT Hyderabad · CGPA 8.89**
 
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=flat&logo=c&logoColor=white) ![Julia](https://img.shields.io/badge/-Julia-9558B2?style=flat&logo=julia&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=flat&logo=openjdk&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=flat&logo=anaconda&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=flat&logo=bootstrap&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=flat&logo=django&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi) ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=flat&logo=spring&logoColor=white) ![Web3.js](https://img.shields.io/badge/web3.js-F16822?style=flat&logo=web3.js&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=flat&logo=node.js&logoColor=white) ![Apache Tomcat](https://img.shields.io/badge/apache%20tomcat-%23F8DC75.svg?style=flat&logo=apache-tomcat&logoColor=black) ![Apache Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=flat&logo=Apache%20Maven&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=flat&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat&logo=mongodb&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=flat&logo=Canva&logoColor=white) ![Adobe](https://img.shields.io/badge/adobe-%23FF0000.svg?style=flat&logo=adobe&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=flat&logo=figma&logoColor=white) ![Adobe Illustrator](https://img.shields.io/badge/adobe%20illustrator-%23FF9A00.svg?style=flat&logo=adobe%20illustrator&logoColor=white) ![Blender](https://img.shields.io/badge/blender-%23F5792A.svg?style=flat&logo=blender&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat&logo=scikit-learn&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=flat&logo=TensorFlow&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=flat&logo=plotly&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white) ![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=flat&logo=scipy&logoColor=%white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=flat&logo=Matplotlib&logoColor=black) ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=flat&logo=gitlab&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=flat&logo=github&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=flat&logo=git&logoColor=white) ![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=flat&logo=swagger&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=flat&logo=notion&logoColor=white) ![Unity](https://img.shields.io/badge/unity-%23000000.svg?style=flat&logo=unity&logoColor=white) ![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=flat&logo=firefox&logoColor=#FF7139) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white) ![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=flat&logo=Trello&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=Asha0509&theme=default&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=Asha0509&theme=default&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Asha0509&theme=default&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=Asha0509&theme=synthwave&no-frame=true&no-bg=false&margin-w=4)
-
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=light)
+📄 [Resume](#) &nbsp;·&nbsp; 💼 [LinkedIn](https://linkedin.com/in/asha-jyothi-b4186428a) &nbsp;·&nbsp; 📬 ashajyothi0509@gmail.com
 
 ---
-[![](https://visitcount.itsvg.in/api?id=Asha0509&icon=2&color=2)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## About Me
+
+I'm a final-year Computer Science (AI/ML) student who builds things end-to-end — from
+designing system architecture and training ML models to shipping full-stack applications
+on cloud infrastructure. I don't stop at "it works on my machine."
+
+My projects tend to be ambitious by choice. A2S involved four independently deployed
+services, seven vendor scrapers, a multi-agent AI system, and a 3D room visualizer.
+HealthAI required me to preprocess a 377-symptom × 773-disease dataset, train two
+classifiers, wire up a Gemini-powered NLP layer, and write a formal test suite covering
+crisis detection edge cases — all solo. I like problems that require holding a lot of
+complexity at once and making deliberate decisions about what to build, what to cut,
+and why.
+
+Outside of building, I co-founded A.S.P.I.R.E, BVRIT Hyderabad's first student AI/ML
+club, where I've organized 9 events and run workshops reaching 100+ students. I presented
+research at an international conference in Thailand, and I'm currently in a structured
+mentorship program focused on scalable system design and backend engineering.
+
+I'm looking for internship or entry-level roles in **AI/ML engineering**, **full-stack
+development**, or **backend engineering** where I can contribute to real systems and
+keep learning fast.
+
+---
+
+## Featured Projects
+
+### [A2S – Aesthetics To Spaces](https://github.com/AestheticsToSpaces/A2S_Beta)
+*December 2025 – Present*
+
+An AI-powered interior design platform that recommends furniture and décor based on
+room aesthetics, budget, and style preferences — sourced live from major Indian and
+global marketplaces.
+
+**What makes it complex:**
+- 4 independently deployed services: React frontend, Spring Boot API, Python LLM
+  service, Streamlit admin dashboard — orchestrated with Docker Compose and deployed
+  to Azure Container Apps via GitHub Actions CI/CD
+- Multi-agent AI system (Stylist, Vastu, Consultant agents) built on Google Gemini,
+  each with distinct reasoning responsibilities
+- 7 scrapers across Amazon, Flipkart, IKEA, Urban Ladder, and Pepperfry aggregating
+  28,000+ products with ML-based relevance ranking across room type, budget, style,
+  and material
+- 44 REST endpoints across 8 Spring Boot controllers and 12 JPA entities
+- 3D room visualization built with Three.js; secured with OAuth2, JWT, Spring Security,
+  and rate limiting
+- Achieved <600ms average API response time with ~70% cache hit rate
+
+**Stack:** React · Spring Boot · Java · Python · LangChain · PostgreSQL · Docker · Azure · GitHub Actions
+
+---
+
+### [HealthAI – Clinical Triage System](https://github.com/Asha0509/IOMP_HealthCare)
+*January 2026*
+
+A multi-service clinical triage system that uses conversational NLP to gather symptoms,
+classify urgency, and predict likely diseases — with safety guardrails for crisis detection.
+
+**What makes it complex:**
+- Sole developer across the full stack: FastAPI backend, React frontend, SQLAlchemy ORM
+  with MySQL/SQLite persistence, Gemini-powered NLP, and two independently trained ML
+  classifiers
+- Preprocessed a 377-symptom × 773-disease dataset using NumPy and Pandas for feature
+  engineering and stratified splits
+- XGBoost triage classifier: macro ROC-AUC ≈ 0.95, Emergency recall ≈ 0.92
+- Random Forest disease classifier: Top-1 accuracy 82%, Top-3 accuracy 92%
+- Formal test suite (pytest + pytest-asyncio) covering symptom extraction, adaptive
+  question flow, crisis/guardrail detection, and end-to-end session lifecycle — all
+  sessions complete in under 2 seconds
+- Fallback heuristics validated for when Gemini API is unavailable, ensuring
+  zero-downtime classification
+
+**Stack:** Python · FastAPI · React · SQLAlchemy · MySQL/SQLite · XGBoost · Random Forest · Gemini API
+
+---
+
+### [NexusDocs – RAG Document Intelligence](https://github.com/Asha0509/Nexus_Docs)
+*March 2026*
+
+A document intelligence platform where you upload files and ask questions — getting
+context-grounded answers with source citations, not hallucinated responses.
+
+**What makes it complex:**
+- RAG pipeline: PDF, DOCX, TXT, and Markdown ingestion → chunking with
+  RecursiveCharacterTextSplitter → OpenAI text-embedding-3-small → ChromaDB vector index
+- FastAPI backend with folder-scoped retrieval: cosine similarity search over top-5
+  chunks fed into GPT-4o-mini for grounded answers
+- Next.js frontend with document library management, folder organization, and a chat
+  interface with expandable source passage references — so users can verify every answer
+
+**Stack:** Python · FastAPI · LangChain · ChromaDB · Next.js · OpenAI API
+
+---
+
+### [YogaAlign](https://github.com/Asha0509/YogaAlign)
+*July – August 2025 · Built during AI/ML Internship at AptPath*
+
+Real-time yoga pose classification system with live camera inference and per-frame
+corrective feedback.
+
+**What makes it complex:**
+- 92% accuracy across 15 pose categories on 248 annotated images
+- NumPy and Pandas used for annotation preprocessing and feature normalization
+- Random Forest and SVM classifiers with a live camera inference endpoint returning
+  per-frame corrective feedback via JSON API
+- 30% reduction in real-time frame processing latency through optimized preprocessing
+  pipelines and modular model architecture
+- Full-stack web app with user authentication, video upload history, and per-user
+  prediction dashboards
+
+**Stack:** Python · Flask · OpenCV · MediaPipe · NumPy · Pandas
+
+---
+
+## Skills
+
+| Category | Technologies |
+|---|---|
+| **Languages** | Python · Java · JavaScript · TypeScript · C · SQL |
+| **Frontend** | React · Next.js · Three.js |
+| **Backend** | Spring Boot · FastAPI · Flask · Node.js · SQLAlchemy |
+| **ML / AI** | XGBoost · scikit-learn · TensorFlow · MediaPipe · LangChain · RAG |
+| **Databases** | PostgreSQL · MySQL · SQLite · ChromaDB |
+| **Infrastructure** | Docker · Azure · GitHub Actions · Git |
+| **Testing** | pytest · pytest-asyncio · Vitest · System Integration Testing |
+
+---
+
+## Research & Recognition
+
+- 📄 **ICIARD 2024** — Presented *Significance of Emergent Technologies in Teaching Learning Processes* at Metarath University, Thailand (February 2024)
+- 🏆 **SAP Hackfest 2024** — Semifinalist; built a sustainable solar energy technology solution
+- 🎓 **Ananya's Atlassian Mentorship Program** — Selected for a 6-month structured mentorship in scalable system design and backend engineering (November 2025 – Present)
+
+---
+
+## Leadership
+
+**Founding Member & Joint Secretary — A.S.P.I.R.E** *(2024 – Present)*
+*First student-led AI/ML club, BVRIT Hyderabad*
+
+Co-founded the club with a 19-member core team. Personally led 2 workshops and
+co-organized 7+ sessions on ML, computer vision, and applied AI, reaching 100+ students.
+Organized 9 events total, including an inter-college technical competition with 200+
+participants as Technical Event Organizer for the Annual Fest (2025 & 2026).
+
+---
+
+## GitHub Stats
+
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=Asha0509&theme=default&hide_border=true&include_all_commits=false&count_private=false" height="150"/>
+  &nbsp;&nbsp;
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Asha0509&theme=default&hide_border=true&layout=compact" height="150"/>
+</p>
+
+<img src="https://nirzak-streak-stats.vercel.app/?user=Asha0509&theme=default&hide_border=true" height="150"/>
+
+---
+
+## GitHub Trophies
+
+![](https://github-profile-trophy.vercel.app/?username=Asha0509&theme=flat&no-frame=true&no-bg=true&margin-w=6&column=7)
