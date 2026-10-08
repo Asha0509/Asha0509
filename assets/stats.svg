@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-label="Headline results"><g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".6s" begin="0.0s" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" from="0 18" to="0 0" dur=".6s" begin="0.0s" fill="freeze"/>
+<rect x="10.0" y="14" width="230.0" height="272" rx="18" fill="#0f1730" stroke="#22d3ee" stroke-opacity=".35"/>
+<circle cx="125.0" cy="100" r="58" fill="none" stroke="#1f2a44" stroke-width="10"/>
+<circle cx="125.0" cy="100" r="58" fill="none" stroke="#22d3ee" stroke-width="10" stroke-linecap="round" stroke-dasharray="364.4" stroke-dashoffset="364.4" transform="rotate(-90 125.0 100)"><animate attributeName="stroke-dashoffset" from="364.4" to="182.2" dur="1.6s" begin="0.0s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1" keyTimes="0;1"/></circle>
+<text x="125.0" y="108" text-anchor="middle" font-family="'Segoe UI',system-ui,-apple-system,Arial,sans-serif" font-size="30" font-weight="800" fill="#fff">50%</text>
+<text x="125.0" y="190" text-anchor="middle" font-family="'Segoe UI',system-ui,-apple-system,Arial,sans-serif" font-size="17" font-weight="700" fill="#22d3ee">fewer attempts</text>
+<text x="125.0" y="214" text-anchor="middle" font-family="'Segoe UI',system-ui,-apple-system,Arial,sans-serif" font-size="12.5" fill="#9fb3d1">than a fixed schedule (70 vs 141),</text>
+<text x="125.0" y="231" text-anchor="middle" font-family="'Segoe UI',system-ui,-apple-system,Arial,sans-serif" font-size="12.5" fill="#9fb3d1">0 wasted, 0 rule violations</text>
+<text x="125.0" y="266" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="11" fill="#6b7da3" letter-spacing="1">RETRY BUDGET ALLOCATOR</text></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".6s" begin="0.25s" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" from="0 18" to="0 0" dur=".6s" begin="0.25s" fill="freeze"/>
+<rect x="260.0" y="14" width="230.0" height="272" rx="18" fill="#0f1730" stroke="#a78bfa" stroke-opacity=".35"/>
+<circle cx="375.0" cy="100" r="58" fill="none" stroke="#1f2a44" stroke-width="10"/>
+<circle cx="375.0" cy="100" r="58" fill="none" stroke="#a78bfa" stroke-width="10" stroke-linecap="round" stroke-dasharray="364.4" stroke-dashoffset="364.4" transform="rotate(-90 375.0 100)"><animate attributeName="stroke-dashoffset" from="364.4" to="25.5" dur="1.6s" begin="0.25s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1" keyTimes="0;1"/></circle>
+<text x="375.0" y="108" text-anchor="middle" font-family="'Segoe UI',system-ui,-apple-system,Arial,sans-serif" font-size="30" font-weight="800" fill="#fff">0.93</text>
+<text x="375.0" y="190" text-anchor="middle" font-family="'Segoe UI',system-ui,-apple-system,Arial,sans-serif" font-size="17" font-weight="700" fill="#a78bfa">recall on theft</text>
+<text x="375.0" y="214" text-anchor="middle" font-family="'Segoe UI',system-ui,-apple-system,Arial,sans-serif" font-size="12.5" fill="#9fb3d1">precision 0.82, F1 0.87 on</text>
+<text x="375.0" y="231" text-anchor="middle" font-family="'Segoe UI',system-ui,-apple-system,Arial,sans-serif" font-size="12.5" fill="#9fb3d1">20 unseen simulated networks</text>
+<text x="375.0" y="266" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="11" fill="#6b7da3" letter-spacing="1">VIDYUTDRISHTI</text></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".6s" begin="0.5s" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" from="0 18" to="0 0" dur=".6s" begin="0.5s" fill="freeze"/>
+<rect x="510.0" y="14" width="230.0" height="272" rx="18" fill="#0f1730" stroke="#f472b6" stroke-opacity=".35"/>
+<circle cx="625.0" cy="100" r="58" fill="none" stroke="#1f2a44" stroke-width="10"/>
+<circle cx="625.0" cy="100" r="58" fill="none" stroke="#f472b6" stroke-width="10" stroke-linecap="round" stroke-dasharray="364.4" stroke-dashoffset="364.4" transform="rotate(-90 625.0 100)"><animate attributeName="stroke-dashoffset" from="364.4" to="11.4" dur="1.6s" begin="0.5s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1" keyTimes="0;1"/></circle>
+<text x="625.0" y="108" text-anchor="middle" font-family="'Segoe UI',system-ui,-apple-system,Arial,sans-serif" font-size="30" font-weight="800" fill="#fff">31/32</text>
+<text x="625.0" y="190" text-anchor="middle" font-family="'Segoe UI',system-ui,-apple-system,Arial,sans-serif" font-size="17" font-weight="700" fill="#f472b6">mutants killed</text>
+<text x="625.0" y="214" text-anchor="middle" font-family="'Segoe UI',system-ui,-apple-system,Arial,sans-serif" font-size="12.5" fill="#9fb3d1">mutation testing on the</text>
+<text x="625.0" y="231" text-anchor="middle" font-family="'Segoe UI',system-ui,-apple-system,Arial,sans-serif" font-size="12.5" fill="#9fb3d1">compliance rules</text>
+<text x="625.0" y="266" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="11" fill="#6b7da3" letter-spacing="1">RETRY BUDGET ALLOCATOR</text></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".6s" begin="0.75s" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" from="0 18" to="0 0" dur=".6s" begin="0.75s" fill="freeze"/>
+<rect x="760.0" y="14" width="230.0" height="272" rx="18" fill="#0f1730" stroke="#34d399" stroke-opacity=".35"/>
+<circle cx="875.0" cy="100" r="58" fill="none" stroke="#1f2a44" stroke-width="10"/>
+<circle cx="875.0" cy="100" r="58" fill="none" stroke="#34d399" stroke-width="10" stroke-linecap="round" stroke-dasharray="364.4" stroke-dashoffset="364.4" transform="rotate(-90 875.0 100)"><animate attributeName="stroke-dashoffset" from="364.4" to="0.0" dur="1.6s" begin="0.75s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1" keyTimes="0;1"/></circle>
+<text x="875.0" y="108" text-anchor="middle" font-family="'Segoe UI',system-ui,-apple-system,Arial,sans-serif" font-size="30" font-weight="800" fill="#fff">100%</text>
+<text x="875.0" y="190" text-anchor="middle" font-family="'Segoe UI',system-ui,-apple-system,Arial,sans-serif" font-size="17" font-weight="700" fill="#34d399">red-flag cases caught</text>
+<text x="875.0" y="214" text-anchor="middle" font-family="'Segoe UI',system-ui,-apple-system,Arial,sans-serif" font-size="12.5" fill="#9fb3d1">60-case safety eval, escalate-only</text>
+<text x="875.0" y="231" text-anchor="middle" font-family="'Segoe UI',system-ui,-apple-system,Arial,sans-serif" font-size="12.5" fill="#9fb3d1">rules, 2 misses reported</text>
+<text x="875.0" y="266" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="11" fill="#6b7da3" letter-spacing="1">HEALTHAI</text></g></svg>
