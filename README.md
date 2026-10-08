@@ -7,7 +7,7 @@
 [![Resume](https://img.shields.io/badge/Resume-PDF-f472b6?style=for-the-badge&logo=readthedocs&logoColor=white)](AshaJyothi_Resume.pdf)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/asha-jyothi-b4186428a)
 [![Email](https://img.shields.io/badge/Email-Say_hi-ea4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ashajyothi0509@gmail.com)
-![Open to](https://img.shields.io/badge/Open_to-AI%2FML_%C2%B7_Backend_%C2%B7_Full--stack_internships-34d399?style=for-the-badge)
+![Open to](https://img.shields.io/badge/Open_to-AI%2FML_%C2%B7_SDE_internships-34d399?style=for-the-badge)
 
 **B.Tech CS (AI & ML) · BVRIT Hyderabad · 2023 – 2027 · CGPA 8.80**
 
@@ -86,13 +86,13 @@ A symptom-triage agent over a RAG knowledge base, built so a model error cannot 
 
 <br/>
 
-## 🧠 How I think about AI systems
+## 🧠 One design, three systems
 
 <div align="center">
-<img src="assets/pipeline.svg" alt="Animated pipeline: six deterministic stages and one model call" width="100%"/>
+<img src="assets/pipeline.svg" alt="Animated pipelines of Retry Budget Allocator, VidyutDrishti and HealthAI" width="100%"/>
 </div>
 
-1. **Deterministic where it must be right.** Anything about money, safety or rules is plain code with tests.
+1. **Deterministic where it must be right.** Money, safety and rules are plain code with tests.
 2. **Models where they add value.** Explaining, summarising and answering, always with a fallback.
 3. **Prove it.** Evals, mutation tests, CI gates, and a "what did not work" section.
 
@@ -101,16 +101,8 @@ A symptom-triage agent over a RAG knowledge base, built so a model error cannot 
 ## 🛠️ Toolbox
 
 <div align="center">
-<img src="assets/skills.svg" alt="Scrolling list of technologies" width="100%"/>
+<img src="assets/skills.svg" alt="Toolbox by category: languages, web and APIs, ML and data, LLM and agents, quality and DevOps, databases" width="100%"/>
 </div>
-
-| | |
-|---|---|
-| **Languages** | Python · Java · JavaScript · TypeScript · C · SQL |
-| **Web & APIs** | FastAPI · Flask · Spring Boot · React · Vite · Tailwind · Next.js · TanStack Query · Pydantic · Pandera · SQLAlchemy |
-| **ML / AI** | LLM tool-calling agents · RAG · MCP · conformal prediction · Isolation Forest · scikit-learn · XGBoost · TensorFlow · OpenCV · MediaPipe · Prophet · Chronos |
-| **Quality & DevOps** | pytest · Hypothesis · mutmut · ruff · GitHub Actions · CodeQL · Dependabot · OpenSSF Scorecard · Docker · Render · Azure |
-| **Data** | PostgreSQL · MySQL · SQLite · ChromaDB · Pandas · NumPy |
 
 <br/>
 
