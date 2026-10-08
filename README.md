@@ -1,122 +1,84 @@
 # Asha Jyothi Boddu
 
-**AI/ML & Full-Stack Engineer · B.Tech CS-AIML @ BVRIT Hyderabad · CGPA 8.89**
+**AI/ML & Backend Engineer · B.Tech CS (AI & ML) @ BVRIT Hyderabad · 2023 – 2027 · CGPA 8.80**
 
-📄 [Resume](#) &nbsp;·&nbsp; 💼 [LinkedIn](https://linkedin.com/in/asha-jyothi-b4186428a) &nbsp;·&nbsp; 📬 ashajyothi0509@gmail.com
-
----
-
-## About Me
-
-I'm a final-year Computer Science (AI/ML) student who builds things end-to-end — from
-designing system architecture and training ML models to shipping full-stack applications
-on cloud infrastructure. I don't stop at "it works on my machine."
-
-My projects tend to be ambitious by choice. A2S involved four independently deployed
-services, seven vendor scrapers, a multi-agent AI system, and a 3D room visualizer.
-HealthAI required me to preprocess a 377-symptom × 773-disease dataset, train two
-classifiers, wire up a Gemini-powered NLP layer, and write a formal test suite covering
-crisis detection edge cases — all solo. I like problems that require holding a lot of
-complexity at once and making deliberate decisions about what to build, what to cut,
-and why.
-
-Outside of building, I co-founded A.S.P.I.R.E, BVRIT Hyderabad's first student AI/ML
-club, where I've organized 9 events and run workshops reaching 100+ students. I presented
-research at an international conference in Thailand, and I'm currently in a structured
-mentorship program focused on scalable system design and backend engineering.
-
-I'm looking for internship or entry-level roles in **AI/ML engineering**, **full-stack
-development**, or **backend engineering** where I can contribute to real systems and
-keep learning fast.
+📄 [Resume (PDF)](AshaJyothi_Resume.pdf) &nbsp;·&nbsp; 💼 [LinkedIn](https://linkedin.com/in/asha-jyothi-b4186428a) &nbsp;·&nbsp; 📬 ashajyothi0509@gmail.com
 
 ---
 
-## Featured Projects
+## About
 
-### [A2S – Aesthetics To Spaces](https://github.com/AestheticsToSpaces/A2S_Beta)
-*December 2025 – Present*
+I build AI systems that can be checked, not just demoed. My recent projects are all deployed, each with a test suite, a published evaluation and a plain write-up of what did not work. I put models where they add value (explaining, summarising, answering) and keep decisions that must be right in plain, testable code, with a safe fallback when a model is down.
 
-An AI-powered interior design platform that recommends furniture and décor based on
-room aesthetics, budget, and style preferences — sourced live from major Indian and
-global marketplaces.
+Outside of building, I co-founded A.S.P.I.R.E, BVRIT Hyderabad's first student AI/ML club (9 events, workshops for 100+ students), presented a paper at an international conference in Thailand, and am a mentee in Ananya's Atlassian Mentorship Program (scalable distributed systems and backend design).
 
-**What makes it complex:**
-- 4 independently deployed services: React frontend, Spring Boot API, Python LLM
-  service, Streamlit admin dashboard — orchestrated with Docker Compose and deployed
-  to Azure Container Apps via GitHub Actions CI/CD
-- Multi-agent AI system (Stylist, Vastu, Consultant agents) built on Google Gemini,
-  each with distinct reasoning responsibilities
-- 7 scrapers across Amazon, Flipkart, IKEA, Urban Ladder, and Pepperfry aggregating
-  28,000+ products with ML-based relevance ranking across room type, budget, style,
-  and material
-- 44 REST endpoints across 8 Spring Boot controllers and 12 JPA entities
-- 3D room visualization built with Three.js; secured with OAuth2, JWT, Spring Security,
-  and rate limiting
-- Achieved <600ms average API response time with ~70% cache hit rate
-
-**Stack:** React · Spring Boot · Java · Python · LangChain · PostgreSQL · Docker · Azure · GitHub Actions
+I'm looking for **AI/ML engineering**, **backend** or **full-stack** internships and entry-level roles.
 
 ---
 
-### [HealthAI – Clinical Triage System](https://github.com/Asha0509/IOMP_HealthCare)
-*January 2026*
+## Featured projects
 
-A multi-service clinical triage system that uses conversational NLP to gather symptoms,
-classify urgency, and predict likely diseases — with safety guardrails for crisis detection.
+Every project below is live, and each app has a built-in guided tour of its pages. Numbers come from the repositories' own evaluation harnesses.
 
-**What makes it complex:**
-- Sole developer across the full stack: FastAPI backend, React frontend, SQLAlchemy ORM
-  with MySQL/SQLite persistence, Gemini-powered NLP, and two independently trained ML
-  classifiers
-- Preprocessed a 377-symptom × 773-disease dataset using NumPy and Pandas for feature
-  engineering and stratified splits
-- XGBoost triage classifier: macro ROC-AUC ≈ 0.95, Emergency recall ≈ 0.92
-- Random Forest disease classifier: Top-1 accuracy 82%, Top-3 accuracy 92%
-- Formal test suite (pytest + pytest-asyncio) covering symptom extraction, adaptive
-  question flow, crisis/guardrail detection, and end-to-end session lifecycle — all
-  sessions complete in under 2 seconds
-- Fallback heuristics validated for when Gemini API is unavailable, ensuring
-  zero-downtime classification
+### [Retry Budget Allocator](https://github.com/Asha0509/retry-budget-allocator) · [Live](https://retry-allocator.onrender.com)
+*September 2026*
 
-**Stack:** Python · FastAPI · React · SQLAlchemy · MySQL/SQLite · XGBoost · Random Forest · Gemini API
+When a UPI AutoPay payment fails, the rules allow only three more tries. This decides how to spend them: ask the customer, retry at a chosen legal time, or stop early.
+
+- **50% fewer attempts** than a fixed schedule (70 vs 141) with **0 wasted attempts** and **0 rule violations**, under a stated, published outcome model. It reports where it loses: 30 vs 35 recoveries, and it only wins on money above Rs 147.82 per attempt.
+- The model never decides: failure cause, timing and stop are deterministic, enforced by an AST test; the model only writes the customer-facing wording, with a template fallback.
+- Pandera data contract, **mutation testing (31/32 mutants killed)**, property-based fuzzing (1200+ cases), CodeQL and CI gates that fail on any violation.
+
+**Stack:** Python · FastAPI · Pydantic · Pandera · React · Tailwind · mutmut · Hypothesis · GitHub Actions
 
 ---
 
-### [NexusDocs – RAG Document Intelligence](https://github.com/Asha0509/Nexus_Docs)
-*March 2026*
+### [VidyutDrishti – AT&C Loss Detection](https://github.com/Asha0509/VidyutDrishti) · [Live](https://vidyutdrishti.onrender.com)
+*May 2026*
 
-A document intelligence platform where you upload files and ask questions — getting
-context-grounded answers with source citations, not hallucinated responses.
+Finds likely electricity theft and metering loss on a distribution network and ranks inspections by the money they would recover.
 
-**What makes it complex:**
-- RAG pipeline: PDF, DOCX, TXT, and Markdown ingestion → chunking with
-  RecursiveCharacterTextSplitter → OpenAI text-embedding-3-small → ChromaDB vector index
-- FastAPI backend with folder-scoped retrieval: cosine similarity search over top-5
-  chunks fed into GPT-4o-mini for grounded answers
-- Next.js frontend with document library management, folder organization, and a chat
-  interface with expandable source passage references — so users can verify every answer
+- 4-layer detection (transformer energy balance, own-history baseline, peer comparison, Isolation Forest). On 20 unseen simulated networks: **0.82 precision, 0.93 recall, F1 0.87**, recall gated in CI.
+- Tool-calling **copilot**, inspection-brief agent and smart alerts. Groq with NVIDIA NIM failover and a rule-based fallback; every number comes from read-only tools (0 invented meter ids in the eval).
+- **MCP server** exposing the 8 read-only tools to any MCP client, plus an LLM observability page.
+- Checked the simulator against real London smart-meter data (realism 61% → 84%) and benchmarked forecasters on real feeders (MASE 1.52 → 0.83).
 
-**Stack:** Python · FastAPI · LangChain · ChromaDB · Next.js · OpenAI API
+**Stack:** Python · FastAPI · scikit-learn · Pandas · React · TypeScript · TanStack Query · Groq · NVIDIA NIM · MCP
 
 ---
 
-### [YogaAlign](https://github.com/Asha0509/YogaAlign)
-*July – August 2025 · Built during AI/ML Internship at AptPath*
+### [HealthAI – Triage Agent with Safety Evals](https://github.com/Asha0509/HealthCare) · [Live](https://healthai-triage.onrender.com)
+*August 2026*
 
-Real-time yoga pose classification system with live camera inference and per-frame
-corrective feedback.
+A symptom-triage agent over a RAG knowledge base, built so a model error cannot downgrade an emergency.
 
-**What makes it complex:**
-- 92% accuracy across 15 pose categories on 248 annotated images
-- NumPy and Pandas used for annotation preprocessing and feature normalization
-- Random Forest and SVM classifiers with a live camera inference endpoint returning
-  per-frame corrective feedback via JSON API
-- 30% reduction in real-time frame processing latency through optimized preprocessing
-  pipelines and modular model architecture
-- Full-stack web app with user authentication, video upload history, and per-user
-  prediction dashboards
+- Deterministic red-flag rules **can only raise a level**; the model's free-text action is ignored in favour of a fixed table with the emergency number.
+- 60-case eval harness gated in CI on missed emergencies: rules-only baseline catches **100% of red-flag cases and 85% of all emergencies**, and the 2 misses are reported.
+- Hybrid retrieval (dense + keyword), Groq/NIM failover, an Ops page logging every model call, and an optional conformal-prediction second opinion (escalate-only) behind a provider-agnostic adapter for external decision models (e.g. Jev, Laya). 135 tests with a fake LLM transport, so CI never needs a key.
 
-**Stack:** Python · Flask · OpenCV · MediaPipe · NumPy · Pandas
+**Stack:** Python · FastAPI · React · RAG (model2vec) · Groq / NVIDIA NIM · SQLite · GitHub Actions
+
+---
+
+### [Since – Smart Market Watchlist](https://github.com/Asha0509/Groww_Hackathon)
+*September 2026 · Code by Groww 2026 finalist (9 of 2,900+ registrations)*
+
+A watchlist that shows only what meaningfully changed since you last looked, using per-user, per-instrument watermarks that survive restarts.
+
+- Corporate-action adjustment: a 1:10 split reads −0.1% instead of a false −90%; five per-instrument session states tell a closed market from a dead feed.
+- Shared per-instrument ingest costs 14 ms once vs 14 s if recomputed per user (3,000 instruments × 1,000 users); 52-test suite.
+
+**Stack:** Python · FastAPI · SQLite · pytest · HTML/CSS/JavaScript
+
+---
+
+### More work
+
+- **[A2S – Aesthetics To Spaces](https://github.com/AestheticsToSpaces/A2S_Beta)** (Dec 2025 – present): AI interior-design platform; React, Spring Boot, Python LLM service, 28,000+ products from 7 scrapers, Gemini multi-agent system, Docker and Azure CI/CD.
+- **[NexusDocs](https://github.com/Asha0509/Nexus_Docs)** (Mar 2026): RAG document Q&A with source citations; FastAPI, LangChain, ChromaDB, Next.js.
+- **[YogaAlign](https://github.com/Asha0509/YogaAlign)** (Jul – Aug 2025, AptPath internship): real-time pose classification, 92% accuracy across 15 poses and 30% lower frame latency; Flask, OpenCV, MediaPipe.
+
+> **How to read the numbers:** results for the first two projects are from simulated data and test-mode outcomes I authored, so they measure how well a scarce budget is spent under a stated model, not real-world recovery rates. Each repository's README says so and links its full results write-up, including what did not work.
 
 ---
 
@@ -125,36 +87,36 @@ corrective feedback.
 | Category | Technologies |
 |---|---|
 | **Languages** | Python · Java · JavaScript · TypeScript · C · SQL |
-| **Frontend** | React · Next.js · Three.js |
-| **Backend** | Spring Boot · FastAPI · Flask · Node.js · SQLAlchemy |
-| **ML / AI** | XGBoost · scikit-learn · TensorFlow · MediaPipe · LangChain · RAG |
+| **Frontend** | React · Vite · Tailwind CSS · TanStack Query · Next.js · Three.js |
+| **Backend** | FastAPI · Flask · Spring Boot · Pydantic · Pandera · SQLAlchemy · Node.js |
+| **ML / Data** | scikit-learn · XGBoost · TensorFlow · OpenCV · MediaPipe · NumPy · Pandas · Isolation Forest · Prophet · Chronos |
+| **LLM / AI** | Tool-calling agents · RAG · Model Context Protocol (MCP) · LangChain · Groq · NVIDIA NIM · OpenRouter · conformal prediction · Jev · Laya · evaluation harnesses |
 | **Databases** | PostgreSQL · MySQL · SQLite · ChromaDB |
-| **Infrastructure** | Docker · Azure · GitHub Actions · Git |
-| **Testing** | pytest · pytest-asyncio · Vitest · System Integration Testing |
+| **DevOps** | Git · GitHub Actions (CI/CD) · CodeQL · Dependabot · OpenSSF Scorecard · Docker · Render · Azure |
+| **Testing** | pytest · Hypothesis (property-based) · mutmut (mutation testing) · pytest-asyncio · Vitest · ruff |
+| **Concepts** | DSA · OOP · Distributed Systems · LLM evaluation & guardrails · Provider failover · Hybrid retrieval · UPI payments · Observability |
 
 ---
 
-## Research & Recognition
+## Research & recognition
 
-- 📄 **ICIARD 2024** — Presented *Significance of Emergent Technologies in Teaching Learning Processes* at Metarath University, Thailand (February 2024)
-- 🏆 **SAP Hackfest 2024** — Semifinalist; built a sustainable solar energy technology solution
-- 🎓 **Ananya's Atlassian Mentorship Program** — Selected for a 6-month structured mentorship in scalable system design and backend engineering (November 2025 – Present)
+- 🏆 **Code by Groww 2026:** finalist, one of 9 out of 2,900+ registrations
+- 🏆 **Flipkart GRiD 8.0:** Round 3 qualifier, top 0.5% of 400,000+ applicants
+- 🏆 **SAP Hackfest 2024:** semifinalist
+- 💻 **CodeChef 3-Star**, 850+ problems solved across LeetCode, CodeChef and Codeforces
+- 📄 **ICIARD 2024:** presented *Significance of Emergent Technologies in Teaching Learning Processes*, Metarath University, Thailand (Feb 2024)
+- 🎓 **Aspire Leaders Program** (Aspire Institute, Harvard-affiliated), completed March 2025
+- 🎓 **Ananya's Atlassian Mentorship Program:** DSA and backend track, Nov 2025 – May 2026
 
 ---
 
 ## Leadership
 
-**Founding Member & Joint Secretary — A.S.P.I.R.E** *(2024 – Present)*
-*First student-led AI/ML club, BVRIT Hyderabad*
-
-Co-founded the club with a 19-member core team. Personally led 2 workshops and
-co-organized 7+ sessions on ML, computer vision, and applied AI, reaching 100+ students.
-Organized 9 events total, including an inter-college technical competition with 200+
-participants as Technical Event Organizer for the Annual Fest (2025 & 2026).
+**Founding Member & Joint Secretary, A.S.P.I.R.E** *(2024 – present)*: first student-led AI/ML club at BVRIT Hyderabad. Led workshops reaching 100+ students and organised 9 events, including an inter-college competition with 200+ participants (2025, 2026).
 
 ---
 
-## GitHub Stats
+## GitHub stats
 
 <p align="left">
   <img src="https://github-readme-stats.vercel.app/api?username=Asha0509&theme=default&hide_border=true&include_all_commits=false&count_private=false" height="150"/>
@@ -163,9 +125,3 @@ participants as Technical Event Organizer for the Annual Fest (2025 & 2026).
 </p>
 
 <img src="https://nirzak-streak-stats.vercel.app/?user=Asha0509&theme=default&hide_border=true" height="150"/>
-
----
-
-## GitHub Trophies
-
-![](https://github-profile-trophy.vercel.app/?username=Asha0509&theme=flat&no-frame=true&no-bg=true&margin-w=6&column=7)
