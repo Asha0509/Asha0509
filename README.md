@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/header.svg" alt="Asha Jyothi Boddu, AI/ML and Backend Engineer" width="100%"/>
+<img src="assets/header.svg" alt="Asha Jyothi Boddu, AI/ML and Software Engineer" width="100%"/>
 
 <br/>
 
