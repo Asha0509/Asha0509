@@ -98,11 +98,44 @@ A symptom-triage agent over a RAG knowledge base, built so a model error cannot 
 
 <br/>
 
+## 🔬 Research
+
+### [Swapping the Model Does Not Reset the Price](https://github.com/Asha0509/Apart-AI-Collusion-Research-Sprint)
+<sub>Apart Research · AI Collusion Research Sprint · October 2026 · pre-registered</sub>
+
+When the model behind an LLM pricing agent is replaced, do prices reset? In a pre-registered replacement study (18 markets, 5 conditions, 250 rounds each), **they don't**: with the old agent's notes the new model starts at exactly the old price in **18 of 18** markets, and without them it takes about 16 rounds to settle. The notes contain no collusive language, so a monitor that scans agent memory would miss this channel.
+
+`Python` `multi-agent LLM simulation` `gpt-oss-120b` `Mistral Small 3.2` `pre-registration` `statistics`
+
+<br/>
+
+## 💼 Experience
+
+| | |
+|---|---|
+| **AptPath** · AI/ML Development Intern · Jul – Aug 2025 | Built [YogaAlign](https://github.com/Asha0509/YogaAlign): MediaPipe landmarks → SVM and Random Forest classifiers for 6 asanas from video and live camera, with accounts and saved results (Flask, OpenCV, SQLite) |
+| **Ananya's Atlassian Mentorship Program** · Mentee, DSA and Backend · Nov 2025 – May 2026 | 6-month structured mentorship in scalable distributed system design, OOP and collaborative Git workflows |
+
+<br/>
+
 ## 🛠️ Toolbox
 
 <div align="center">
 <img src="assets/skills.svg" alt="Toolbox by category: languages, web and APIs, ML and data, LLM and agents, quality and DevOps, databases" width="100%"/>
 </div>
+
+**Where each skill shows up** (every link is code you can read):
+
+| Area | Skills | Proof |
+|---|---|---|
+| **Backend & APIs** | Python (FastAPI, Flask, Pydantic), Java (Spring Boot, Spring Data JPA), REST design | [Retry Allocator](https://github.com/Asha0509/retry-budget-allocator) · [VidyutDrishti](https://github.com/Asha0509/VidyutDrishti) · [HealthAI](https://github.com/Asha0509/HealthCare) · [E-commerce API](https://github.com/Asha0509/Ecommerce_FullStack) |
+| **LLMs, RAG & agents** | Tool-calling agents, RAG with citations, MCP server, provider failover, eval harnesses | [HealthAI](https://github.com/Asha0509/HealthCare) · [VidyutDrishti](https://github.com/Asha0509/VidyutDrishti) · [NexusDocs](https://github.com/Asha0509/Nexus_Docs) |
+| **ML & computer vision** | scikit-learn, Isolation Forest, conformal prediction, forecasting, MediaPipe, OpenCV | [VidyutDrishti](https://github.com/Asha0509/VidyutDrishti) · [HealthAI](https://github.com/Asha0509/HealthCare) · [YogaAlign](https://github.com/Asha0509/YogaAlign) |
+| **Data** | SQL, PostgreSQL / TimescaleDB, MySQL, SQLite, ChromaDB, Pandas, Pandera data contracts | [VidyutDrishti](https://github.com/Asha0509/VidyutDrishti) · [Retry Allocator](https://github.com/Asha0509/retry-budget-allocator) · [NexusDocs](https://github.com/Asha0509/Nexus_Docs) |
+| **Testing & quality** | pytest, Hypothesis property tests, mutation testing (mutmut), CI eval gates, CodeQL | [Retry Allocator](https://github.com/Asha0509/retry-budget-allocator) · [HealthAI](https://github.com/Asha0509/HealthCare) · [VidyutDrishti](https://github.com/Asha0509/VidyutDrishti) |
+| **Frontend** | React, TypeScript, Next.js, Tailwind CSS, TanStack Query | [VidyutDrishti](https://github.com/Asha0509/VidyutDrishti) · [NexusDocs](https://github.com/Asha0509/Nexus_Docs) · [Retry Allocator](https://github.com/Asha0509/retry-budget-allocator) |
+| **DevOps** | GitHub Actions, CodeQL, Dependabot, OpenSSF Scorecard, Render, Docker | All three flagship repos (Docker in [VidyutDrishti](https://github.com/Asha0509/VidyutDrishti)) |
+| **Research** | Pre-registered experiments, multi-agent LLM simulations, honest negative results | [AI Collusion sprint](https://github.com/Asha0509/Apart-AI-Collusion-Research-Sprint) |
 
 <br/>
 
@@ -115,15 +148,16 @@ A symptom-triage agent over a RAG knowledge base, built so a model error cannot 
 | ☀️ **SAP Hackfest 2024** | Semifinalist |
 | 💻 **CodeChef 3-Star** | 850+ problems solved across LeetCode, CodeChef and Codeforces |
 | 📄 **ICIARD 2024, Thailand** | Presented *Significance of Emergent Technologies in Teaching Learning Processes* |
-| 🎓 **Mentorship & leadership programs** | Ananya's Atlassian Mentorship (DSA and backend) · Aspire Leaders Program (Aspire Institute, Harvard-affiliated) |
+| 🎓 **Aspire Leaders Program** | Aspire Institute (Harvard-affiliated), global leadership development, completed March 2025 |
 | 🤖 **A.S.P.I.R.E** | Co-founder and Joint Secretary of BVRIT Hyderabad's first student-led AI/ML club: 9 events, workshops for 100+ students, a 200+ participant inter-college competition |
 
 <details>
 <summary><b>More projects</b></summary>
 
 - **[A2S – Aesthetics To Spaces](https://github.com/AestheticsToSpaces/A2S_Beta)**: AI interior-design platform. React, Spring Boot and a Python LLM service, 28,000+ products from 7 scrapers, a Gemini multi-agent system, Docker and Azure CI/CD.
-- **[NexusDocs](https://github.com/Asha0509/Nexus_Docs)**: RAG document Q&A with source citations. FastAPI, LangChain, ChromaDB, Next.js.
-- **[YogaAlign](https://github.com/Asha0509/YogaAlign)**: real-time yoga pose classification, 92% accuracy across 15 poses and 30% lower frame latency (AptPath internship). Flask, OpenCV, MediaPipe.
+- **[NexusDocs](https://github.com/Asha0509/Nexus_Docs)**: chat with your PDFs, Word and Markdown files, with every answer citing its source passage. Local embeddings in ChromaDB, folder-scoped retrieval, any OpenAI-compatible model. FastAPI, LangChain, Next.js.
+- **[YogaAlign](https://github.com/Asha0509/YogaAlign)**: classifies 6 yoga asanas from uploaded video or a live webcam with MediaPipe landmarks and SVM / Random Forest models, with accounts and saved results (AptPath internship). Flask, OpenCV, scikit-learn.
+- **[Multi-tenant E-commerce API](https://github.com/Asha0509/Ecommerce_FullStack)**: Spring Boot and JPA backend for a multi-seller store: 9 entities, CRUD for catalogue, carts and orders, Stripe PaymentIntents, seller welcome emails. Java, MySQL, React (client in progress).
 
 </details>
 
@@ -135,7 +169,7 @@ A symptom-triage agent over a RAG knowledge base, built so a model error cannot 
 <img src="https://github-readme-stats.vercel.app/api?username=Asha0509&theme=tokyonight&hide_border=true&include_all_commits=false&count_private=false" height="165"/>
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Asha0509&theme=tokyonight&hide_border=true&layout=compact" height="165"/>
 <br/>
-<img src="https://nirzak-streak-stats.vercel.app/?user=Asha0509&theme=tokyonight&hide_border=true" height="165"/>
+<img src="https://streak-stats.demolab.com/?user=Asha0509&theme=tokyonight&hide_border=true" height="165"/>
 </div>
 
 <img src="assets/footer.svg" alt="" width="100%"/>
