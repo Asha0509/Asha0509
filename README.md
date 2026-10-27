@@ -15,7 +15,7 @@
 
 > **I build AI systems you can check, not just demo.** Every project below is deployed, has a test suite, a published evaluation and an honest write-up of what did not work. Models write the words; plain, tested code makes the decisions that have to be right.
 
-<img src="assets/code.svg" width="100%" alt="asha.py: class Asha(Engineer) with role AI/ML and software engineer; studies B.Tech CS (AI and ML), BVRIT Hyderabad, 2027; builds LLM agents, RAG, evals and full-stack apps; research at Apart Research; 3 live apps. decide() returns rules(case), plain tested code; explain() returns llm(decision) or a template fallback."/>
+<img src="assets/code.svg" width="100%" alt="asha.py: open to AI/ML and SDE roles in 2027. class Asha(Engineer) builds AI you can check. Stack: agents, RAG, MCP, evals, FastAPI, Spring Boot. Shipped Retry Allocator, VidyutDrishti and HealthAI. Research: Apart model-swap study. Wins: Code by Groww finalist, Flipkart GRiD top 0.5%. decide() uses deterministic tested rules; explain() uses an LLM with a template fallback. Running it prints 3 systems live, 0 rule violations, 0.93 recall, 100% red flags caught."/>
 
 <br/>
 
@@ -31,25 +31,26 @@
 
 Each app is live and opens with a built-in guided tour of every page.
 
-### 🩺 HealthAI Triage &nbsp;·&nbsp; <sub>an agent that can never downgrade an emergency</sub>
+### 🔁 Retry Budget Allocator &nbsp;·&nbsp; <sub>spend 3 retries on purpose</sub>
 
 <table><tr>
 <td width="56%" valign="top">
-<a href="https://healthai-triage.onrender.com"><img src="assets/shot-healthai.svg" alt="HealthAI emergency result page" width="100%"/></a>
+<a href="https://retry-allocator.onrender.com"><img src="assets/shot-retry.svg" alt="Retry Budget Allocator landing page" width="100%"/></a>
 </td>
 <td width="44%" valign="top">
 
-**In plain words:** describe your symptoms and get *home care*, *see a doctor today* or *emergency*, with reasons and sources. Fixed safety rules check every case and the most cautious answer always wins.
+**In plain words:** when a UPI AutoPay payment fails, the rules allow three more tries. This works out *why* it failed, then asks the customer, retries at a legal time, or stops.
 
-- Red-flag rules **can only raise a level**; final level = `max(rules, agent, conformal)`
-- **60-case eval gated in CI**: 100% of red-flag cases, 85% of emergencies, 2 misses published
-- Hybrid RAG, provider failover, Ops page, **135 tests** with no network
+- **50% fewer attempts** (70 vs 141), **0 wasted**, **0 rule violations**
+- Reports where it loses: 30 vs 35 recoveries; wins on money only above ₹147.82/attempt
+- Decisions **deterministic, enforced by an AST test**; LLM writes wording only
+- Pandera contract · **mutation testing 31/32** · 1,200+ property-based cases · CodeQL
 
-[![Live](https://img.shields.io/badge/Live-demo-34d399?style=flat-square)](https://healthai-triage.onrender.com) [![Code](https://img.shields.io/badge/Source-GitHub-181717?style=flat-square&logo=github)](https://github.com/Asha0509/HealthCare)
+[![Live](https://img.shields.io/badge/Live-demo-22d3ee?style=flat-square)](https://retry-allocator.onrender.com) [![Code](https://img.shields.io/badge/Source-GitHub-181717?style=flat-square&logo=github)](https://github.com/Asha0509/retry-budget-allocator)
 
 </td></tr></table>
 
-`Python` `FastAPI` `React` `RAG` `Groq` `NVIDIA NIM` `Conformal prediction` `SQLite` `GitHub Actions`
+`Python` `FastAPI` `Pydantic` `Pandera` `React` `Tailwind` `mutmut` `Hypothesis` `GitHub Actions`
 
 ### ⚡ VidyutDrishti &nbsp;·&nbsp; <sub>find the meter hiding the missing energy</sub>
 
@@ -73,26 +74,25 @@ Each app is live and opens with a built-in guided tour of every page.
 
 `Python` `FastAPI` `scikit-learn` `React` `TypeScript` `TanStack Query` `Groq` `NVIDIA NIM` `MCP`
 
-### 🔁 Retry Budget Allocator &nbsp;·&nbsp; <sub>spend 3 retries on purpose</sub>
+### 🩺 HealthAI Triage &nbsp;·&nbsp; <sub>an agent that can never downgrade an emergency</sub>
 
 <table><tr>
 <td width="56%" valign="top">
-<a href="https://retry-allocator.onrender.com"><img src="assets/shot-retry.svg" alt="Retry Budget Allocator landing page" width="100%"/></a>
+<a href="https://healthai-triage.onrender.com"><img src="assets/shot-healthai.svg" alt="HealthAI emergency result page" width="100%"/></a>
 </td>
 <td width="44%" valign="top">
 
-**In plain words:** when a UPI AutoPay payment fails, the rules allow three more tries. This works out *why* it failed, then asks the customer, retries at a legal time, or stops.
+**In plain words:** describe your symptoms and get *home care*, *see a doctor today* or *emergency*, with reasons and sources. Fixed safety rules check every case and the most cautious answer always wins.
 
-- **50% fewer attempts** (70 vs 141), **0 wasted**, **0 rule violations**
-- Reports where it loses: 30 vs 35 recoveries; wins on money only above ₹147.82/attempt
-- Decisions **deterministic, enforced by an AST test**; LLM writes wording only
-- Pandera contract · **mutation testing 31/32** · 1,200+ property-based cases · CodeQL
+- Red-flag rules **can only raise a level**; final level = `max(rules, agent, conformal)`
+- **60-case eval gated in CI**: 100% of red-flag cases, 85% of emergencies, 2 misses published
+- Hybrid RAG, provider failover, Ops page, **135 tests** with no network
 
-[![Live](https://img.shields.io/badge/Live-demo-22d3ee?style=flat-square)](https://retry-allocator.onrender.com) [![Code](https://img.shields.io/badge/Source-GitHub-181717?style=flat-square&logo=github)](https://github.com/Asha0509/retry-budget-allocator)
+[![Live](https://img.shields.io/badge/Live-demo-34d399?style=flat-square)](https://healthai-triage.onrender.com) [![Code](https://img.shields.io/badge/Source-GitHub-181717?style=flat-square&logo=github)](https://github.com/Asha0509/HealthCare)
 
 </td></tr></table>
 
-`Python` `FastAPI` `Pydantic` `Pandera` `React` `Tailwind` `mutmut` `Hypothesis` `GitHub Actions`
+`Python` `FastAPI` `React` `RAG` `Groq` `NVIDIA NIM` `Conformal prediction` `SQLite` `GitHub Actions`
 
 <br/>
 
@@ -111,12 +111,6 @@ Each app is live and opens with a built-in guided tour of every page.
 ## 🔬 Research
 
 <a href="https://github.com/Asha0509/Apart-AI-Collusion-Research-Sprint"><img src="assets/research.svg" width="100%" alt="Research: Swapping the Model Does Not Reset the Price. Apart Research AI Collusion Research Sprint, October 2026, pre-registered. If AI pricing agents start colluding and you replace the model behind one of them, prices don't reset: with the old agent's notes the new model resumes the old price in 18 of 18 markets; without them it takes about 16 rounds to settle."/></a>
-
-<br/>
-
-## 🗺️ The journey so far
-
-<img src="assets/journey.svg" width="100%" alt="2023 started B.Tech CS (AI and ML); 2024 paper at ICIARD Thailand; 2024 co-founded A.S.P.I.R.E AI club; 2025 Aspire Leaders Program; 2025 AI/ML intern at AptPath; 2025-26 Atlassian mentorship; 2026 shipped 3 live AI systems; 2026 Apart Research study; 2027 graduating, open to roles."/>
 
 <br/>
 
