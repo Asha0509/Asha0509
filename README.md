@@ -142,10 +142,10 @@ Each app is live and opens with a built-in guided tour of every page.
 <summary><b>More projects</b></summary>
 <br/>
 
+- **[A2S – Aesthetics To Spaces](https://github.com/AestheticsToSpaces/A2S_Beta)** · [HyKr Build Challenge MVP](https://github.com/Asha0509/A2S-MVP-Hykr): AI interior design for homebuyers. Spring Boot backend (Spring Security + OAuth, JPA on PostgreSQL, cached catalog, rate limiting), Python AI service with image fallbacks, React + Three.js 3D walkthrough, Docker Compose. 28,000+ products.
 - **[NexusDocs](https://github.com/Asha0509/Nexus_Docs)**: chat with your PDFs and notes; every answer cites its source passage. FastAPI, LangChain, ChromaDB, Next.js.
 - **[YogaAlign](https://github.com/Asha0509/YogaAlign)**: yoga pose classification from video or webcam (AptPath internship). Flask, OpenCV, MediaPipe.
 - **[Since](https://github.com/Asha0509/Groww_Hackathon)**: smart market watchlist, Code by Groww 2026 finalist project.
-- **[A2S – Aesthetics To Spaces](https://github.com/AestheticsToSpaces/A2S_Beta)**: AI interior design. React, Spring Boot, Python LLM service, Gemini multi-agent system, 28,000+ products.
 - **[Multi-tenant E-commerce API](https://github.com/Asha0509/Ecommerce_FullStack)**: Spring Boot + JPA backend with carts, orders and Stripe payment intents.
 
 </details>
